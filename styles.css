@@ -474,10 +474,10 @@ p {
 
 }
 footer {
-  max-width: 5000px;
-  min-width: 700px;
+  width: 100%;
   background-color: #ddefff;
   text-align: center;
+  margin: auto;
   padding: 20px;
   font-size: 16px;
 }
