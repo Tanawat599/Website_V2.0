@@ -1,0 +1,369 @@
+body {
+  max-width: 3000px;
+  min-width: 700px;
+  justify-items: center;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+a{
+  color: #006faf;
+}
+
+header h1 {
+  
+  position: absolute;
+  top: 65px; /* Adjust vertical position */
+  left: 260px; 
+  margin: 40px 0;
+  color: #333;
+}
+p{
+  font-family: 'Prompt', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+h3{
+  font-family: 'Prompt', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 32px;
+}
+.image {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+    gap: 10px; /* เพิ่มช่องว่างระหว่างรูปภาพ */
+}
+
+.image img {
+    max-width: 30%;
+    border-radius: 8px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  min-width: 700px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto; 
+  border-radius: 8px;
+}
+
+.Sec2{
+  display: inline-block;
+
+}
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills li {
+  background-color: #e0f7ff;
+  padding: 8px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.skills-category {
+  width: 45%; /* ปรับขนาดให้แต่ละฝั่งมีขนาดใกล้เคียงกัน */
+}
+
+.skills-category h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+
+
+footer {
+  background-color: #ddefff;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+footer a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 90px; /* Adjust vertical position */
+    left: 40px; /* Adjust horizontal position */
+    width: 240px;
+    height: auto;
+  
+}
+
+
+header {
+  display: flex;
+  align-items: center; /* Centers vertically */
+  justify-content: flex-start; /* Aligns items to the left */
+  background-color: #e0f0ff;
+  padding: 140px;
+}
+
+
+
+#toggle-button:hover {
+  background-color: #0056b3; /* เปลี่ยนสีเมื่อชี้ที่ปุ่ม */
+}
+.hidden {
+    display: none;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004999;
+}
+
+.button-container1{
+
+  text-align: center; /* ทำให้ปุ่มอยู่กึ่งกลาง */
+
+}
+
+.button-container {
+  text-align: center; /* ทำให้ปุ่มอยู่กึ่งกลาง */
+  margin-top: 20px;
+}
+
+article {
+  /*background-color: #f2efef; /* สีพื้นหลัง */
+  padding: 15px; /* ระยะห่างภายใน */
+  margin-bottom: 20px; /* ระยะห่างระหว่างแต่ละ article */
+  border-radius: 4px; /* มุมโค้ง */
+}
+
+h3 {
+  margin: 0; /* ลบระยะห่างบนล่างของ h3 */
+  font-size: 1.5em; /* ขนาดฟอนต์ที่ใหญ่ขึ้น */
+}
+
+p {
+  margin: 10px 0; /* ระยะห่างบนล่างระหว่างย่อหน้า */
+  line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
+}
+/* CSS */
+.info-row {
+  display: flex;
+  align-items: center;
+}
+
+.level-info {
+  min-width: 150px; /* กำหนดความกว้างตามที่ต้องการ */
+}
+
+.moreinfo-category p {
+  min-width: 70px; /* กำหนดให้ตรงกับ .level-info */
+}
+
+
+.info-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+
+.grid {
+
+  transition: opacity 1s ease 0s;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: left;
+  align-items: stretch;
+  column-gap: 18px;
+  row-gap: 5px;
+}
+
+.grid2 {
+
+  transition: opacity 1s ease 0s;
+  display: grid;
+  grid-template-columns: 2fr 3fr; 
+  justify-items: stretch;
+  align-items: stretch;
+  column-gap: 18px;
+  row-gap: 5px;
+}
+
+
+.content {
+
+  transition: background-color 1.5s ease 0s;
+  border-radius: 6px;
+  color: #242424;
+  background-color: #f2efef;
+  /*background-color: #ad1616;*/
+  font-weight: 600;
+  text-align: left; /* เปลี่ยนจาก center เป็น left */
+  box-sizing: border-box;
+  height: 100%;
+  padding: 2px;
+
+
+}
+
+.content2 {
+
+  transition: background-color 1.5s ease 0s;
+  border-radius: 6px;
+  color: #242424;
+  background-color: #f2efef;
+  /*background-color: #ad1616;*/
+  font-weight: 600;
+  text-align: left; /* เปลี่ยนจาก center เป็น left */
+  display: inline-block;
+  height: 100%;
+  padding: 2px;
+  min-width: 30%;
+  margin-left: 0.8%;
+  margin-right: 18px;
+}
+
+
+.content:hover {
+
+  color: #ffffff;
+  background-color: #242424;
+}
+
+.contentEMP {
+  border-radius: 6px;
+  color: #242424;
+  background-color: #ffffff;
+  font-weight: 600;
+  text-align: left; /* เปลี่ยนจาก center เป็น left */
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+}
+
+
+
+.grid-Awards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: stretch;
+  align-items: stretch;
+  column-gap: 12px;
+  row-gap: 20px;
+}
+
+.content-Awards {
+  
+  color: #242424;
+  border-radius: 6px;
+  background-color: #f2efef;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+}
+.content-Awards ul{
+
+  text-align: left;
+
+}
+@media (min-width: 1000px) { /* ปรับขนาดตามที่คุณต้องการ */
+  .grid-Awards {
+      grid-template-columns: repeat(4, 1fr); /* จำกัดจำนวนคอลัมน์ที่ 4 */
+  }
+
+}
+.gallery-wrapper {
+    background-color: #dbdbdb;
+    box-sizing: border-box;
+    height: 195px;
+    overflow: hidden;
+}
+  
+.gallery-scroll {
+    box-sizing: border-box;
+    height: 195px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+  
+.gallery {
+    background-color: #dbdbdb;
+    display: flex;
+    box-sizing: border-box;
+    width: max-content;
+    height: 180px;
+    padding: 0px 8px;
+}
+  
+.item {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px 8px;
+}
+  
+.item img {
+    display: block;
+    height: 100%;
+}
+
+
+
+.page-leftbar {
+  grid-area: leftbar;
+}
+
+.page-main {
+  grid-area: main;
+}
+
+
+
+
+
+
+
+
+
