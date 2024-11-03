@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="addten.css">
+    <title>TRAFFIXED</title>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section>
+        <h1>TRAFFIXED</h1>
+
+        <div class="image" style="margin-bottom: 10px;">
+            <img src="https://drive.google.com/thumbnail?id=1zS1CM-IYX5hiqQF-yoqRbdeYhpL5NhNj" style="max-width: 40%; border-radius: 8px;">
+            <img src="https://drive.google.com/thumbnail?id=1wxyZWNbrtMA0HlZHz7dxmTrrIuIEiZOr" style="max-width: 40%; border-radius: 8px;">
+            
+        
+        </div>
+
+
+        <div class="grid">
+            <div class="item">
+              <div class="content">
+                <article>
+                  <h3>วัตถุประสงค์</h3>
+                  <p style="max-width: 90%;">
+                    งานวิจัยนี้มุ่งศึกษาระบบไฟจราจรอัจฉริยะ โดยเน้นการตรวจจับพาหนะและวิเคราะห์ปริมาณรถบนถนนล่วงหน้า เพื่อหาแนวทางลดการจราจรติดขัด นอกจากนี้ ยังพิจารณาการประยุกต์ใช้เทคโนโลยี IoT และ AI ในการเก็บข้อมูลและตัดสินใจแบบเรียลไทม์ เพื่อเพิ่มประสิทธิภาพการจัดการจราจร และให้ข้อมูลแก่ผู้ใช้ในการเลือกเส้นทางที่เหมาะสม</p>
+                </article>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <article>
+                  <h3>หลักการทำงาน</h3>
+                  <p style="max-width: 90%;">
+                    
+                   
+                    ระบบนี้ทำงานโดยเริ่มจากการรับข้อมูลจากกล้องตรวจจับที่ส่งมายังบอร์ดประมวลผล Raspberry Pi ซึ่งจะทำการประมวลผลข้อมูลพร้อมเก็บปริมาณรถยนต์ที่ตรวจพบ เพื่อใช้ในการคาดการณ์ปริมาณรถล่วงหน้า จากนั้น Raspberry Pi จะสั่งการเปิดหรือปิดไฟจราจรโดยส่งคำสั่งไปยังบอร์ด Arduino และส่งต่อไปยังรีเลย์ (Relay) เพื่อจ่ายไฟควบคุมการทำงานของไฟจราจร
+                    </p>
+              </article>
+              </div>
+            </div>
+
+        </div>
+        <div class="grid2">
+          <div class="item">
+            <div class="content">
+              <article>
+                <h3>ส่วนประกอบ</h3>
+                <ul >
+                  <li >Raspberry Pi 5</li>
+                  <li >USB Camera</li>
+                  <li >Raspberry Pi Pico</li>
+                  <li >GP2Y1014AU0F</li>
+                  <li >Relay 12v</li>
+                </ul>
+              
+              </article>
+  
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+             <article>
+              <h3>รายละเอียดเพิ่มเติม</h3>
+              <ul >
+                <li>Code: <a href="https://github.com/Tanawat599/TRAFFIXED.git" target="_blank">https://github.com/Tanawat599/TRAFFIXED.git</a></li>
+                <!--<li >Video: <a href="https://drive.google.com/file/d/1oDFKEe9TItY_jLJ8uOZEJu1-u8mJUmwh/view?usp=sharing" target="_blank">https://drive.google.com</a></li>
+              -->
+  
+              </ul>
+            
+            </article>
+
+            </div>
+          </div>
+
+      </div>
+        
+    </section>
+    <a href="page1.html">
+      <button >Home page</button>
+    </a>
+</body>
+</html>
